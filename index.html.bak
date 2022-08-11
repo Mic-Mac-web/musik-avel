@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Brécé en roue libre - Accueil</title>
+    <link rel="stylesheet" href="accueil.css">
+    <link href="img/roue.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<header>
+    <h1><BMG>MIC-MAC</BMG></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="test">Accueil</a></li>
+            <li><a href="programmation.html" class="test">Programmation</a></li>
+            <li><a href="equipe_partenaires.html" class="test">Notre équipe et nos partenaires</a></li>
+            <li><a href="joindre.html" class="test">Nous joindre</a></li>
+        </ul>
+    </nav>
+</header>
+<body style="background-color: #FFFFFF">
+    <body>
+        <section class="hello">
+
+            <section class="img_grpdiv">
+                <div class="slider">
+                    <div class="slides">
+                        
+                        <div class="slide"><img src="img/img_start/01.png" alt="" class="testimg" /></div>
+                        <div class="slide"><img src="img/img_start/02.png" alt="" class="testimg" /></div>
+                        <div class="slide"><img src="img/img_start/03.png" alt="" class="testimg" /></div>
+                        <div class="slide"><img src="img/img_start/04.png" alt="" class="testimg" /></div>
+                    </div>
+                </div>
+            </section>
+
+            <p class="hellotittle"><Title_Hello> Bienvenue sur [Brécé en roue libre] </Title_Hello></p>
+            <section class="SN_logo">
+                <div class="test404">
+                    <div class="logodiv1"><a href="https://www.instagram.com/mic_mac_officiel/"><img src="img/logo_insta.png" alt="logo insta" /></a></div>
+                    <div class="logodiv2"><a href="https://www.facebook.com/MicMacOfficiel" /><img src="img/logo_facebook.png" alt="Logo facebook" /></div>
+                    <div class="logodiv3"><a href="https://www.tiktok.com/@micmac_officiel_musique?lang=fr" /><img src="img/logo_tiktok.png" alt="Logo TikTok" /></div>
+                    <div class="logodiv4"><a href="https://twitter.com/MicMAc_Officiel" /><img src="img/logo_twitter.png" alt="Logo Twitter" /></a></div>
+                </div>
+            </section>
+
+    </section>
+
+        <br><Question_Title><h2>[Brécé en roue libre] c'est quoi ?</h2></Question_Title>
+        <br><espace> </espace>
+        <br><section class="Question">
+            <p>
+                [Brécé en roue libre], c'est un rassemblement de nombreux groupes de musique pop'/rock qui se réunissent dans le cadre de patager de la musique.
+                Ces groupes se rassemblent le 10 septembre à Bréce pour partager leurs musiques avec vous ! Ce projet a vu le jour dès le début
+                du groupe Mic-mac. En effet ce projet à été crée par Mic-Mac, un groupe acigno-brécéen. Cependant ce projet s'est concrétisé grâce
+                à la mairie de Brécé et d'une association de basket qui nous acompagne pour ce projet. Ainsi pour votre plus grand plaisir,
+                [NOM] accueille pour cette anée 2022 les groupes : The slipers, les camaleons, ...
+
+            </p>
+        </section>
+
+        <section class="background_il">
+            <section class="illustration">
+				<Iaa><a href="sous_pages/playliste.html"><img src="img/logo_musique.png" class="logo_musique" alt="logo musique" /></a></Iaa>
+				<Ia><a href="sous_pages/playliste.html"><img src="img/logo_manger.png" href="https://www.twitch.tv/" class="logo_nourriture" alt="logo nourriture" /></Ia></a>
+                <Ib><img src="img/logo_partager.png" class="logo_partager" alt="logo partager" /></Ib>
+                <Ic><img src="img/logo_fete.png" class="logo_fete" alt="logo fete" /></Ic></a>
+            </section>
+
+            <section class="illustration_txt">
+                <ITaa><h3>Musique</h3></ITaa>
+                <ITa><h3>Manger / Boire</h3></ITa>
+                <ITb><h3>Partager</h3></ITb>
+                <ITc><h3>Danser</h3></ITc>
+            </section>
+        </section>
+
+        <footer>
+            <h6>&copy; - 2022 MIC-MAC, tous droits réservés.</h6>
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>

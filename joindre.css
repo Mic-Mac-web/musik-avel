@@ -1,0 +1,166 @@
+﻿/*import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+/*Navbar*/
+/*Parametre marge auto*/
+body {
+    margin-top: 0 auto;
+    margin: 0 auto;
+}
+
+/*Parametre Nav color and largeur*/
+header {
+    height: 70px;
+    background-color: #FF9E2B;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/*Parametre Navbar txt and lien and transition*/
+
+BMG {
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+
+a.test {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F0c330;
+    transition: 0.5s;
+}
+
+/* Title page*/
+
+section.Backgroudconctact {
+    background-color: white;
+    background-size: cover;
+    height: 800px;
+}
+
+.Titlte_Page {
+    position: center;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 300%;
+    height: 100px;
+}
+
+SousTitle_Page {
+    position: absolute;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 80%;
+    padding-top: 130px;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+p.SousTitle_Page {
+    position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rokkitt', serif;
+    font-size: 130%;
+    padding-top: 20px;
+}
+
+/*logo reseau sociau*/
+
+section.SN_logo {
+    position: absolute;
+    display: flex;
+    padding-top: 100px;
+    height: 91%;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.test404 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.logodiv1 {
+    margin-left: 0.5%;
+}
+
+.logodiv2 {
+    margin-left: 0%;
+}
+
+.logodiv2 {
+    margin-left: 10%;
+}
+
+.logodiv3 {
+    margin-left: 10%;
+}
+
+
+.logodiv4 {
+    margin-left: 10%;
+}
+
+/*Mail text*/
+
+.txt_mail {
+    position: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Rokkitt', serif;
+    font-size: 130%;
+    padding-top: 400px;
+
+}
+
+/*Fin de page*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 150%;
+}
