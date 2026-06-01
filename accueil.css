@@ -238,12 +238,25 @@ Question_Title {
 
 
 section.Question {
-    position: absolute;
-    font-size: 170%;
-    padding-top: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 10%;
     font-family: 'Rokkitt', serif;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+section.Question h3 {
+    color: #FF9E2B;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.2rem;
+}
+
+section.Question p {
+    margin-bottom: 20px;
 }
 
 .button_lieu{
