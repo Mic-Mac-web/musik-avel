@@ -42,7 +42,8 @@ a {
     text-decoration: none;
 }
 
-/* Même navbar que la page accueil */
+/* ===== NAVBAR IDENTIQUE À L'ACCUEIL ===== */
+
 .site-header {
     position: sticky;
     top: 0;
@@ -89,6 +90,8 @@ a {
     transform: translateY(-1px);
 }
 
+/* ===== HERO PROGRAMMATION ===== */
+
 .program-hero {
     min-height: calc(100vh - 74px);
     display: grid;
@@ -99,8 +102,13 @@ a {
     color: var(--white);
     text-align: center;
     background:
-        linear-gradient(120deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.45), rgba(255, 158, 43, 0.32)),
-        url("img/artistes/Mic-Mac.png") center / cover no-repeat,
+        linear-gradient(
+            120deg,
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.55),
+            rgba(255, 158, 43, 0.28)
+        ),
+        url("img/background.png") center / cover no-repeat,
         var(--orange);
 }
 
@@ -193,6 +201,8 @@ h1 {
     background: rgba(255, 255, 255, 0.08);
 }
 
+/* ===== SECTIONS ===== */
+
 .section {
     padding: 90px 5%;
 }
@@ -235,10 +245,12 @@ h1 {
     line-height: 1.7;
 }
 
+/* ===== CARTES ARTISTES ===== */
+
 .lineup-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 28px;
+    gap: 30px;
 }
 
 .artist-card {
@@ -255,30 +267,22 @@ h1 {
     box-shadow: var(--shadow);
 }
 
-/* Zone image anti-pixelisation : l’image n’est plus forcée à remplir toute la carte. */
-.artist-media {
-    height: 300px;
-    padding: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background:
-        radial-gradient(circle at top left, rgba(255, 158, 43, 0.28), transparent 36%),
-        linear-gradient(135deg, #171717, #2b2b2b);
+.artist-img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: center;
+    background: var(--black);
+    transition: transform 0.35s ease;
 }
 
-.artist-img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 18px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+.artist-card:hover .artist-img {
+    transform: scale(1.03);
 }
 
 .artist-body {
     padding: 28px;
+    min-height: 245px;
 }
 
 .artist-topline {
@@ -321,6 +325,8 @@ h1 {
     line-height: 1.55;
 }
 
+/* ===== HORAIRES ===== */
+
 .split {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
@@ -354,6 +360,11 @@ h1 {
     border-left: 8px solid var(--orange);
 }
 
+.schedule-row.changeover {
+    background: #fff4df;
+    color: #6b4b16;
+}
+
 .hour {
     font-weight: 900;
     color: var(--black);
@@ -364,6 +375,8 @@ h1 {
     font-size: 1.8rem;
     color: var(--black);
 }
+
+/* ===== INFOS PRATIQUES ===== */
 
 .practical-grid {
     display: grid;
@@ -396,6 +409,8 @@ h1 {
     line-height: 1.55;
 }
 
+/* ===== FOOTER ===== */
+
 .site-footer {
     background: var(--black);
     color: var(--white);
@@ -403,6 +418,8 @@ h1 {
     padding: 22px 5%;
     font-size: 0.95rem;
 }
+
+/* ===== RESPONSIVE ===== */
 
 @media (max-width: 950px) {
     .site-header {
@@ -422,8 +439,12 @@ h1 {
         grid-template-columns: 1fr;
     }
 
-    .artist-media {
-        height: 280px;
+    .artist-img {
+        height: 320px;
+    }
+
+    .artist-body {
+        min-height: auto;
     }
 }
 
@@ -448,6 +469,10 @@ h1 {
     .hero-actions {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .artist-img {
+        height: 260px;
     }
 
     .schedule-row {
