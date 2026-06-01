@@ -1,193 +1,166 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Programmation Musik'Avel 2026 : Mic-Mac, KJD Blues Band, Lemon Squeezy et One Name A Week le samedi 6 juin 2026 à Brécé.">
-    <title>Musik'Avel - Programmation 2026</title>
+<link rel="stylesheet" href="./programmation.css?v=2026">
+<link href="img/vent.png" rel="icon" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&family=Rokkitt:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="programmation.css">
-    <link href="img/vent.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&family=Rokkitt:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+    <nav class="main-nav" aria-label="Navigation principale">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programmation.html" class="active">Programmation</a></li>
+            <li><a href="equipe_partenaires.html">Équipe & partenaires</a></li>
+            <li><a href="joindre.html">Nous joindre</a></li>
+        </ul>
+    </nav>
+</header>
 
-<body>
-    <header class="site-header">
-        <a href="index.html" class="logo">MUSIK'AVEL</a>
+<main>
+    <section class="program-hero">
+        <div class="program-hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-kicker">5ᵉ édition • Samedi 6 juin 2026 • Brécé (35)</p>
+            <h1>Programmation 2026</h1>
+            <p class="hero-subtitle">Quatre groupes, une soirée gratuite, 100% live, au cœur de Brécé.</p>
 
-        <nav class="main-nav" aria-label="Navigation principale">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="programmation.html" class="active">Programmation</a></li>
-                <li><a href="equipe_partenaires.html">Équipe & partenaires</a></li>
-                <li><a href="joindre.html">Nous joindre</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="program-hero">
-            <div class="program-hero-overlay"></div>
-            <div class="hero-content">
-                <p class="hero-kicker">5ᵉ édition • Samedi 6 juin 2026 • Brécé (35)</p>
-                <h1>Programmation 2026</h1>
-                <p class="hero-subtitle">Quatre groupes, une soirée gratuite, 100% live, au cœur de Brécé.</p>
-
-                <div class="hero-actions">
-                    <a href="#lineup" class="btn btn-primary">Voir les artistes</a>
-                    <a href="#horaires" class="btn btn-secondary">Voir les horaires</a>
-                </div>
+            <div class="hero-actions">
+                <a href="#lineup" class="btn btn-primary">Voir les artistes</a>
+                <a href="#horaires" class="btn btn-secondary">Voir les horaires</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="lineup" class="section section-white">
-            <div class="container section-intro">
-                <p class="section-label">Les artistes</p>
-                <h2>À l’affiche cette année</h2>
+    <section id="lineup" class="section section-white">
+        <div class="container section-intro">
+            <p class="section-label">Les artistes</p>
+            <h2>À l’affiche cette année</h2>
+            <p>
+                Pour cette 5ᵉ édition, Musik’Avel accueille quatre groupes pour faire vibrer l’Espace du Suet
+                de 18h00 à 22h00. Au programme : rock, blues, énergie live et découvertes locales.
+            </p>
+        </div>
+
+        <div class="container lineup-grid">
+            <article class="artist-card">
+                <img src="img/artistes/Mic-Mac.png" alt="Mic-Mac sur scène" class="artist-img">
+                <div class="artist-body">
+                    <div class="artist-topline">
+                        <span class="artist-time">18h00</span>
+                        <span class="artist-style">Pop rock</span>
+                    </div>
+                    <h3>Mic-Mac</h3>
+                    <p>
+                        Le groupe à l’origine de l’association ouvre cette 5ᵉ édition avec son énergie live,
+                        ses reprises pop-rock et son envie de partager la musique avec le public brécéen.
+                    </p>
+                </div>
+            </article>
+
+            <article class="artist-card">
+                <img src="img/artistes/KJDBlues.jpg" alt="KJD Blues Band" class="artist-img">
+                <div class="artist-body">
+                    <div class="artist-topline">
+                        <span class="artist-time">18h45</span>
+                        <span class="artist-style">Blues rock</span>
+                    </div>
+                    <h3>KJD Blues Band</h3>
+                    <p>
+                        Une ambiance blues et rock pour lancer la soirée avec du groove, des guitares
+                        et une belle chaleur musicale.
+                    </p>
+                </div>
+            </article>
+
+            <article class="artist-card">
+                <img src="img/artistes/lemon.png" alt="Lemon Squeezy" class="artist-img">
+                <div class="artist-body">
+                    <div class="artist-topline">
+                        <span class="artist-time">20h00</span>
+                        <span class="artist-style">Rock</span>
+                    </div>
+                    <h3>Lemon Squeezy</h3>
+                    <p>
+                        Un set dynamique pour faire monter l’ambiance et rassembler le public autour
+                        de morceaux efficaces et entraînants.
+                    </p>
+                </div>
+            </article>
+
+            <article class="artist-card">
+                <img src="img/artistes/ONW.png" alt="One Name A Week sur scène" class="artist-img">
+                <div class="artist-body">
+                    <div class="artist-topline">
+                        <span class="artist-time">21h00</span>
+                        <span class="artist-style">Rock</span>
+                    </div>
+                    <h3>One Name A Week</h3>
+                    <p>
+                        Le dernier concert de la soirée pour clôturer Musik’Avel 2026 avec une belle dose
+                        d’énergie sur scène.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="horaires" class="section section-orange">
+        <div class="container split">
+            <div>
+                <p class="section-label">Déroulé</p>
+                <h2>Horaires des concerts</h2>
                 <p>
-                    Pour cette 5ᵉ édition, Musik’Avel accueille quatre groupes pour faire vibrer l’Espace du Suet
-                    de 18h00 à 22h00. Au programme : rock, blues, énergie live et découvertes locales.
+                    Les stands, la buvette et la restauration seront ouverts pendant la soirée.
+                    Les horaires peuvent légèrement évoluer selon les conditions du jour J.
                 </p>
             </div>
 
-            <div class="container lineup-grid">
-                <article class="artist-card">
-                    <img src="img/artistes/Mic-Mac.png" alt="Mic-Mac sur scène" class="artist-img">
-                    <div class="artist-body">
-                        <div class="artist-topline">
-                            <span class="artist-time">18h00</span>
-                            <span class="artist-style">Pop rock</span>
-                        </div>
-                        <h3>Mic-Mac</h3>
-                        <p>
-                            Le groupe à l’origine de l’association ouvre cette 5ᵉ édition avec son énergie live,
-                            ses reprises pop-rock et son envie de partager la musique avec le public brécéen.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="artist-card">
-                    <img src="img/artistes/KJDBlues.jpg" alt="KJD Blues Band" class="artist-img">
-                    <div class="artist-body">
-                        <div class="artist-topline">
-                            <span class="artist-time">18h45</span>
-                            <span class="artist-style">Blues rock</span>
-                        </div>
-                        <h3>KJD Blues Band</h3>
-                        <p>
-                            Une ambiance blues et rock pour lancer la soirée avec du groove, des guitares
-                            et une belle chaleur musicale.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="artist-card">
-                    <img src="img/artistes/lemon.png" alt="Lemon Squeezy" class="artist-img">
-                    <div class="artist-body">
-                        <div class="artist-topline">
-                            <span class="artist-time">20h00</span>
-                            <span class="artist-style">Rock</span>
-                        </div>
-                        <h3>Lemon Squeezy</h3>
-                        <p>
-                            Un set dynamique pour faire monter l’ambiance et rassembler le public autour
-                            de morceaux efficaces et entraînants.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="artist-card">
-                    <img src="img/artistes/ONW.png" alt="One Name A Week sur scène" class="artist-img">
-                    <div class="artist-body">
-                        <div class="artist-topline">
-                            <span class="artist-time">21h00</span>
-                            <span class="artist-style">Rock </span>
-                        </div>
-                        <h3>One Name A Week</h3>
-                        <p>
-                            Le dernier concert de la soirée pour clôturer Musik’Avel 2026 avec une belle dose
-                            d’énergie sur scène.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <section id="horaires" class="section section-orange">
-            <div class="container split">
-                <div>
-                    <p class="section-label">Déroulé</p>
-                    <h2>Horaires des concerts</h2>
-                    <p>
-                        Les stands, la buvette et la restauration seront ouverts pendant la soirée.
-                        Les horaires peuvent légèrement évoluer selon les conditions du jour J.
-                    </p>
+            <div class="schedule-panel">
+                <div class="schedule-row live">
+                    <span class="hour">18h00 - 18h30</span>
+                    <span class="band">Mic-Mac</span>
                 </div>
-
-                <div class="schedule-panel">
-                    <div class="schedule-row live">
-                        <span class="hour">18h00 - 18h30</span>
-                        <span class="band">Mic-Mac</span>
-                    </div>
-                    <div class="schedule-row changeover">
-                        <span class="hour">18h30 - 18h45</span>
-                        <span class="band">Pause</span>
-                    </div>
-                    <div class="schedule-row live">
-                        <span class="hour">18h45 - 19h30</span>
-                        <span class="band">KJD Blues Band</span>
-                    </div>
-                    <div class="schedule-row changeover">
-                        <span class="hour">19h30 - 20h00</span>
-                        <span class="band">Pause </span>
-                    </div>
-                    <div class="schedule-row live">
-                        <span class="hour">20h00 - 20h45</span>
-                        <span class="band">Lemon Squeezy</span>
-                    </div>
-                    <div class="schedule-row changeover">
-                        <span class="hour">20h45 - 21h00</span>
-                        <span class="band">Pause</span>
-                    </div>
-                    <div class="schedule-row live">
-                        <span class="hour">21h00 - 21h45</span>
-                        <span class="band">One Name A Week</span>
-                    </div>
+                <div class="schedule-row live">
+                    <span class="hour">18h45 - 19h30</span>
+                    <span class="band">KJD Blues Band</span>
+                </div>
+                <div class="schedule-row live">
+                    <span class="hour">20h00 - 20h45</span>
+                    <span class="band">Lemon Squeezy</span>
+                </div>
+                <div class="schedule-row live">
+                    <span class="hour">21h00 - 21h45</span>
+                    <span class="band">One Name A Week</span>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="section section-dark">
-            <div class="container practical-grid">
-                <article class="info-card">
-                    <span class="info-icon">📍</span>
-                    <h3>Lieu</h3>
-                    <p>Espace du Suet à Brécé, derrière la salle de sport.</p>
-                </article>
+    <section class="section section-dark">
+        <div class="container practical-grid">
+            <article class="info-card">
+                <span class="info-icon">📍</span>
+                <h3>Lieu</h3>
+                <p>Espace du Suet à Brécé, derrière la salle de sport.</p>
+            </article>
 
-                <article class="info-card">
-                    <span class="info-icon">🎟️</span>
-                    <h3>Entrée gratuite</h3>
-                    <p>Un festival accessible à tous, organisé par l’association Mic-Mac.</p>
-                </article>
+            <article class="info-card">
+                <span class="info-icon">🎟️</span>
+                <h3>Entrée gratuite</h3>
+                <p>Un festival accessible à tous, organisé par l’association Mic-Mac.</p>
+            </article>
 
-                <article class="info-card">
-                    <span class="info-icon">🍻</span>
-                    <h3>Sur place</h3>
-                    <p>Buvette, galettes, rougail saucisse, mafé et restauration rapide.</p>
-                </article>
+            <article class="info-card">
+                <span class="info-icon">🍻</span>
+                <h3>Sur place</h3>
+                <p>Buvette, galettes, rougail saucisse, mafé et restauration rapide.</p>
+            </article>
 
-                <article class="info-card">
-                    <span class="info-icon">🅿️</span>
-                    <h3>Parking</h3>
-                    <p>Nombreuses places disponibles à proximité du site.</p>
-                </article>
-            </div>
-        </section>
-    </main>
+            <article class="info-card">
+                <span class="info-icon">🅿️</span>
+                <h3>Parking</h3>
+                <p>Nombreuses places disponibles à proximité du site.</p>
+            </article>
+        </div>
+    </section>
+</main>
 
-    <footer class="site-footer">
-        <p>&copy; 2022-2026 MIC-MAC, tous droits réservés.</p>
-    </footer>
-</body>
-</html>
+<footer class="site-footer">
+    <p>&copy; 2022-2026 MIC-MAC, tous droits réservés.</p>
+</footer>
