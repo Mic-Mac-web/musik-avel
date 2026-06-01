@@ -1,184 +1,206 @@
-﻿<!DOCTYPE html> <!--TODO faire une version tel-->
-
+<!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="utf-8">
-    <title>Musik'avel - Accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Musik'Avel, festival open air gratuit à Brécé dédié à la scène rock locale. 5e édition le samedi 6 juin 2026.">
+    <title>Musik'Avel - Festival Open Air à Brécé</title>
+
     <link rel="stylesheet" href="accueil.css">
     <link href="img/vent.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@400;600;700&family=Rokkitt:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<header>
-    <h1>
-        <BMG>MUSIK'AVEL</BMG>
-    </h1>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="test">Accueil</a></li>
-            <li><a href="programmation.html" class="test">Programmation</a></li>
-            <li><a href="equipe_partenaires.html" class="test">Notre équipe et nos partenaires</a></li>
-            <li><a href="joindre.html" class="test">Nous joindre</a></li>
-        </ul>
-    </nav>
-</header>
 
-<body style="background-color: #FFFFFF">
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo">MUSIK'AVEL</a>
 
-    <section class="hello">
+        <nav class="main-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="programmation.html">Programmation</a></li>
+                <li><a href="equipe_partenaires.html">Équipe & partenaires</a></li>
+                <li><a href="joindre.html">Nous joindre</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section class="img_grpdiv">
-            <div class="slider">
+    <main>
+        <section class="hero" aria-label="Accueil Musik'Avel">
+            <div class="hero-slider" aria-hidden="true">
                 <div class="slides">
+                    <img src="img/img_start/01.png" alt="">
+                    <img src="img/img_start/02.png" alt="">
+                    <img src="img/img_start/03.png" alt="">
+                    <img src="img/img_start/04.png" alt="">
+                    <img src="img/img_start/05.png" alt="">
+                </div>
+            </div>
 
-                    <div class="slide"><img src="img/img_start/01.png" alt="" class="testimg" /></div>
-                    <div class="slide"><img src="img/img_start/02.png" alt="" class="testimg" /></div>
-                    <div class="slide"><img src="img/img_start/03.png" alt="" class="testimg" /></div>
-                    <div class="slide"><img src="img/img_start/04.png" alt="" class="testimg" /></div>
-                    <div class="slide"><img src="img/img_start/05.png" alt="" class="testimg" /></div>
+            <div class="hero-content">
+                <p class="hero-kicker">5ᵉ édition • Samedi 6 juin 2026 • Brécé (35)</p>
+                <h1>Bienvenue sur Musik'Avel</h1>
+                <p class="hero-subtitle">Festival open air gratuit dédié à la scène rock locale.</p>
+
+                <div class="hero-actions">
+                    <a href="programmation.html" class="btn btn-primary">Voir la programmation</a>
+                    <a href="#infos" class="btn btn-secondary">Infos pratiques</a>
+                </div>
+
+                <div class="social-links" aria-label="Réseaux sociaux">
+                    <a href="https://www.instagram.com/mic_mac_officiel/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_insta.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/MicMacOfficiel" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.tiktok.com/@micmac_officiel_musique?lang=fr" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_tiktok.png" alt="TikTok">
+                    </a>
+                    <a href="https://twitter.com/MicMAc_Officiel" target="_blank" rel="noopener noreferrer">
+                        <img src="img/logo_twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+
+            <a class="scroll-down" href="#presentation">Plus d'infos ↓</a>
+        </section>
+
+        <section id="presentation" class="section section-white">
+            <div class="container text-block">
+                <p class="section-label">Le festival</p>
+                <h2>C’est quoi Musik’Avel ?</h2>
+
+                <p>
+                    Musik’Avel est un festival open air gratuit dédié à la scène rock locale, organisé à Brécé,
+                    près de Rennes. Depuis maintenant 5 ans, l’événement fait vibrer le village chaque premier
+                    week-end de juin autour de concerts live, dans une ambiance conviviale, festive et accessible à tous.
+                </p>
+
+                <p>
+                    Créé à l’initiative de l’association Mic-Mac, composée de musiciens et passionnés locaux,
+                    Musik’Avel a pour objectif de mettre en lumière les artistes de la région, qu’ils soient
+                    émergents ou déjà confirmés.
+                </p>
+
+                <p>
+                    Au fil des éditions, le festival a accueilli plus de 30 artistes et groupes, dont
+                    One Name A Week, Laide Lady, Padalaou, et bien d’autres.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-orange">
+            <div class="container cards-grid">
+                <article class="card">
+                    <span class="card-icon">🎸</span>
+                    <h3>Notre objectif</h3>
+                    <p>
+                        Offrir une scène aux artistes locaux et proposer au public une musique authentique,
+                        en plein air, dans un cadre chaleureux.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">🤝</span>
+                    <h3>Un événement collectif</h3>
+                    <p>
+                        Musik’Avel repose sur l’engagement de nombreux bénévoles, de l’équipe son et lumière,
+                        des partenaires et de la commune de Brécé.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <span class="card-icon">🍻</span>
+                    <h3>Sur place</h3>
+                    <p>
+                        Buvette, restauration rapide, food trucks, toilettes et nombreuses places de parking
+                        sont prévus pour profiter pleinement de la soirée.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="infos" class="section section-white">
+            <div class="container split">
+                <div>
+                    <p class="section-label">Infos pratiques</p>
+                    <h2>Rendez-vous le 6 juin 2026</h2>
+                    <p>
+                        La 5ᵉ édition de Musik’Avel promet une nouvelle soirée rythmée par les guitares,
+                        les découvertes musicales et les rencontres.
+                    </p>
+                </div>
+
+                <div class="info-panel">
+                    <p><strong>Date :</strong> Samedi 6 juin 2026</p>
+                    <p><strong>Lieu :</strong> Espace du Suet, Brécé (35)</p>
+                    <p><strong>Horaires :</strong> 18h00 - 22h00</p>
+                    <p><strong>Entrée :</strong> Gratuite</p>
+                    <p><strong>Parking :</strong> Nombreuses places à proximité</p>
+                    <p><strong>Restauration :</strong> Galettes, rougail saucisse et mafé</p>
+                    <p><strong>Buvette :</strong> Sur place</p>
+                    <p><strong>Toilettes :</strong> Disponibles sur le site</p>
                 </div>
             </div>
         </section>
 
-        <p class="hellotittle">
-            <Title_Hello> Bienvenue sur Musik'avel </Title_Hello>
-        </p>
-        <p class="edition">
-            5ᵉ édition • Samedi 6 juin 2026 • Brécé (35)
-        </p>
-        <section class="SN_logo">
-            <div class="test404">
-                <div class="logodiv1"><a href="https://www.instagram.com/mic_mac_officiel/"><img
-                            src="img/logo_insta.png" alt="logo insta" /></a></div>
-                <div class="logodiv2"><a href="https://www.facebook.com/MicMacOfficiel" /><img
-                        src="img/logo_facebook.png" alt="Logo facebook" /></div>
-                <div class="logodiv3"><a href="https://www.tiktok.com/@micmac_officiel_musique?lang=fr" /><img
-                        src="img/logo_tiktok.png" alt="Logo TikTok" /></div>
-                <div class="logodiv4"><a href="https://twitter.com/MicMAc_Officiel" /><img src="img/logo_twitter.png"
-                        alt="Logo Twitter" /></a></div>
+        <section class="section section-dark">
+            <div class="container text-block light">
+                <p class="section-label">L’association</p>
+                <h2>Qui sommes-nous ?</h2>
+
+                <p>
+                    Mic-Mac est une association de jeunes musiciens passionnés installée à Brécé,
+                    près de Rennes. Notre objectif est de faire vivre la musique locale, de promouvoir
+                    les artistes du territoire et de participer au dynamisme culturel de Brécé et de ses alentours.
+                </p>
+
+                <p>
+                    À l’origine, Mic-Mac était simplement un groupe d’amis réuni par la musique et l’envie de la partager.
+                    Avec le temps, nous avons structuré ce collectif en association afin de porter des projets plus ambitieux
+                    et de créer des événements ouverts au public.
+                </p>
+
+                <p>
+                    Chaque membre apporte son énergie, ses idées et ses compétences : organisation, musique,
+                    technique, sonorisation, communication ou bénévolat. Cette complémentarité nous permet de construire
+                    des projets collectifs autour de valeurs fortes : l’amitié, la créativité, le partage et l’engagement local.
+                </p>
+
+                <p>
+                    C’est dans cette dynamique qu’est né Musik’Avel, un festival rock open air organisé à Brécé.
+                    À travers cet événement, Mic-Mac affirme sa volonté de soutenir les artistes locaux,
+                    de créer des moments fédérateurs et d’offrir au public des expériences musicales uniques.
+                </p>
             </div>
         </section>
 
-        <a href="#suite" />
-        <p class="lien-bas_pages"> Plus d'info
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-chevron-double-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                <path fill-rule="evenodd"
-                    d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-            </svg>
-        </p></a>
-
-    </section>
-    <div id="suite"></div>
-    <br>
-    <Question_Title>
-    <h2>Bienvenue à Musik'Avel</h2>
-</Question_Title>
-
-<section class="Question">
-
-    <h3>🎸 Qu'est-ce que Musik'Avel ?</h3>
-    <p>
-        Musik’Avel est un festival de musique gratuit organisé à Brécé (35).
-        En 2026, nous célébrons avec fierté notre 5ᵉ édition qui se déroulera le samedi 6 juin 2026.
-    </p>
-    <p>
-        Depuis sa création, Musik’Avel a pour ambition de mettre en lumière les artistes locaux,
-        de soutenir la scène musicale régionale et de proposer au public un moment festif,
-        convivial et accessible à tous.
-    </p>
-    <p>
-        Né à l’initiative du groupe Mic-Mac et rendu possible grâce au soutien de la commune,
-        de nos partenaires et de nombreux bénévoles, le festival est devenu un rendez-vous incontournable
-        du début d’été à Brécé.
-    </p>
-    
-    <h3>🎤 Notre objectif</h3>
-    <p>
-        Offrir une scène aux artistes locaux et permettre au public de découvrir de nouveaux talents
-        dans une ambiance chaleureuse et familiale.
-    </p>
-    <p>
-        Depuis la première édition, plus de 30 artistes et groupes se sont produits sur notre scène,
-        parmi lesquels One Name A Week, Laide Lady, Padalaou et bien d'autres.
-    </p>
-    <h3>📍 Informations pratiques</h3>
-    <p>
-        <strong>Date :</strong> Samedi 6 juin 2026<br>
-        <strong>Lieu :</strong> Espace du Suet à Brécé (35)<br>
-        <strong>Horaires :</strong> 18h00 - 22h00<br>
-        <strong>Entrée :</strong> Gratuite<br>
-        <strong>Parking :</strong> Nombreuses places à proximité<br>
-        <strong>Restauration :</strong> Galettes, rougail saucisse et mafé<br>
-        <strong>Buvette :</strong> Sur place<br>
-        <strong>Toilettes :</strong> Disponibles sur le site
-    </p>
-    <h3>🤝 Qui sommes-nous ?</h3>
-    <p>
-        L'association Mic-Mac rassemble des musiciens et bénévoles passionnés installés à Brécé,
-        près de Rennes.
-    </p>
-    <p>
-        Notre objectif est de promouvoir les artistes locaux, faire vivre la musique sur le territoire
-        et organiser des événements accessibles à tous.
-    </p>
-    <p>
-        C’est de cette volonté qu’est né Musik’Avel, un festival imaginé par des passionnés,
-        pour les passionnés, mais surtout pour tous ceux qui aiment partager un bon moment autour de la musique.
-    </p>
-
-</section>
-    <section class="Boutton_lieu-section">
-        <div class="button_lieu"><a href="lieu.html" /><img src="img/btn_noire.png"></a></div>
-    </section>
-
-    <section class="background_orange">
-        <div id="button-pages"></div>
-        <section class="il_page">
-            <div class="center_il"> <!--TODO peut-etre amelliorer les sous section ci-dessous-->
-                <div class="il1"><a href="sous_pages/playliste.html" /><img src="img/logo_musique.png"
-                        class="il_musique" alt="logo musique" /></div>
-                <div class="il1"><a href="sous_pages/menu_manger.html" /><img src="img/logo_manger.png"
-                        class="il_manger" alt="logo manger" /></div>
-                <div class="il1"><a href="sous_pages/playliste.html" /><img src="img/logo_fete.png" class="il_fete"
-                        alt="logo fete" /></div>
-                <div class="il1"><a href="sous_pages/partager.html" /><img src="img/logo_partager.png"
-                        class="il_partager" alt="logo partager" /></div></a>
+        <section class="section section-icons">
+            <div class="container icon-grid">
+                <a href="sous_pages/playliste.html" class="icon-item">
+                    <img src="img/logo_musique.png" alt="Musique">
+                    <span>Musique</span>
+                </a>
+                <a href="sous_pages/menu_manger.html" class="icon-item">
+                    <img src="img/logo_manger.png" alt="Boire et manger">
+                    <span>Boire / manger</span>
+                </a>
+                <a href="sous_pages/playliste.html" class="icon-item">
+                    <img src="img/logo_fete.png" alt="Danser">
+                    <span>Danser</span>
+                </a>
+                <a href="sous_pages/partager.html" class="icon-item">
+                    <img src="img/logo_partager.png" alt="Partager">
+                    <span>Partager</span>
+                </a>
             </div>
         </section>
+    </main>
 
-        <section class="il_txt">
-            <div class="center_txt_il">
-                <espace_txt_il>
-                    <p> </p>
-                </espace_txt_il>
-                <div class="text_il">
-                    <musique>
-                        <p>MUSIQUE</p>
-                    </musique>
-                </div>
-                <div class="text_il">
-                    <manger>
-                        <p>BOIRE / MANGER</p>
-                    </manger>
-                </div>
-                <div class="text_il">
-                    <danser>
-                        <p>DANSER</p>
-                    </danser>
-                </div>
-                <div class="text_il">
-                    <partager>
-                        <p>PARTAGER</p>
-                    </partager>
-                </div>
-            </div>
-        </section>
-    </section>
+    <footer class="site-footer">
+        <p>&copy; 2022-2026 MIC-MAC, tous droits réservés.</p>
+    </footer>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0DR0DK818F"></script>
@@ -186,15 +208,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-0DR0DK818F');
     </script>
-
-
-    <footer>
-    <h6>&copy; 2022-2026 MIC-MAC, tous droits réservés.</h6>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
 </body>
+</html>
