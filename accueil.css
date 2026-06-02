@@ -116,42 +116,36 @@ a {
 
 .slides {
     height: 100%;
-    width: 600%;
+    width: 500%;
     display: flex;
-    animation: glisse 30s infinite ease-in-out;
+    animation: glisse 22s infinite ease-in-out;
 }
 
 .slides img {
-    width: 16.666666%;
+    width: 20%;
     height: 100%;
     object-fit: cover;
 }
 
-/* 6 images */
 @keyframes glisse {
-
-    0%, 10% {
+    0%, 12% {
         transform: translateX(0);
     }
 
-    16%, 26% {
-        transform: translateX(-16.666666%);
+    20%, 32% {
+        transform: translateX(-20%);
     }
 
-    32%, 42% {
-        transform: translateX(-33.333333%);
+    40%, 52% {
+        transform: translateX(-40%);
     }
 
-    48%, 58% {
-        transform: translateX(-50%);
+    60%, 72% {
+        transform: translateX(-60%);
     }
 
-    64%, 74% {
-        transform: translateX(-66.666666%);
-    }
-
-    80%, 90% {
-        transform: translateX(-83.333333%);
+    80%, 92% {
+        transform: translateX(-80%);
     }
 
     100% {
