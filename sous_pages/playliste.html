@@ -1,51 +1,73 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Musik'avel - Musique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Playlist officielle Musik'Avel 2026 sur Spotify : découvrez les artistes de la 5e édition du festival à Brécé.">
+    <title>Musik'Avel - Playlist officielle</title>
     <link rel="stylesheet" href="playliste.css">
     <link href="../img/vent.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&family=Rokkitt:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<header>
-    <h1><BMG>MUSIK'AVEL</BMG></h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html#button-pages" class="test">Accueil</a></li>
-            <li><a href="../programmation.html" class="test">Programmation</a></li>
-            <li><a href="../equipe_partenaires.html" class="test">Notre équipe et nos partenaires</a></li>
-            <li><a href="../joindre.html" class="test">Nous joindre</a></li>
-        </ul>
-    </nav>
-</header>
 <body>
-    <section class="background_orange">
-        <section class="background_blanc">
-            <img src="../img/background_blanc.PNG" class="img_blanc" />
+    <header class="site-header">
+        <a href="../index.html" class="logo">MUSIK'AVEL</a>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a href="../index.html#button-pages">Accueil</a></li>
+                <li><a href="../programmation.html">Programmation</a></li>
+                <li><a href="../equipe_partenaires.html">Équipe & partenaires</a></li>
+                <li><a href="../joindre.html">Nous joindre</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <title_play><h2>La playlist officielle</h2></title_play>
-            <text_play>
-                <p>
-                    La playlist 2024 des musiques des groupes passant lors de l'événement 2024 !
+    <main>
+        <section class="playlist-hero">
+            <div class="playlist-content">
+                <p class="hero-kicker">Musik'Avel 2026 • 5ᵉ édition</p>
+                <h1>Playlist officielle</h1>
+                <p class="hero-subtitle">
+                    Découvrez l’univers musical des groupes présents cette année et mettez-vous dans l’ambiance avant le festival.
                 </p>
-            </text_play>
-
-            <centervideo>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=mHGnFUt2GDibITIl&amp;list=PL9vOU8-DLVxENTBZYFogyXUKXyMotd9Ie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </centervideo>
-
-
+                <div class="artists-line">
+                    <span>Mic-Mac</span>
+                    <span>KJD Blues Band</span>
+                    <span>Lemon Squeezy</span>
+                    <span>One Name A Week</span>
+                </div>
+            </div>
         </section>
-    </section>
-    
-    <footer>
-        <h6>&copy; 2022-2025 MIC-MAC, tous droits réservés.</h6>
 
+        <section class="section section-white">
+            <div class="container playlist-section">
+                <div class="section-intro">
+                    <p class="section-label">À écouter</p>
+                    <h2>La playlist Spotify</h2>
+                    <p>
+                        Retrouvez une sélection de titres pour prolonger l’esprit Musik’Avel et découvrir les artistes de l’édition 2026.
+                    </p>
+                </div>
+                <div class="spotify-card">
+                    <iframe data-testid="embed-iframe" src="https://open.spotify.com/embed/playlist/2VB2Y3jSr6WNix1Dn9soDR?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-orange">
+            <div class="container info-band">
+                <div>
+                    <p class="section-label light-label">Rendez-vous</p>
+                    <h2>Samedi 6 juin 2026</h2>
+                    <p>Concerts gratuits à l’Espace du Suet à Brécé, avec buvette et restauration sur place.</p>
+                </div>
+                <a href="../programmation.html" class="btn btn-primary">Voir la programmation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2022-2026 MIC-MAC, tous droits réservés.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 </html>
