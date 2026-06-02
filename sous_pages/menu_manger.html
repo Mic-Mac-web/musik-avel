@@ -1,73 +1,129 @@
-﻿<!DOCTYPE html>
-
-<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Musik'avel - Boire/Manger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boire et manger à Musik'Avel 2026 : buvette, galettes, rougail saucisse et mafé sur place à Brécé.">
+    <title>Musik'Avel - Boire & Manger</title>
+
     <link rel="stylesheet" href="menu.css">
     <link href="../img/vent.png" rel="icon" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&family=Rokkitt:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<header>
-    <h1>
-        <BMG>MUSIK'AVEL</BMG>
-    </h1>
-    <nav>
-        <ul>
-            <li><a href="../index.html#button-pages" class="test">Accueil</a></li>
-            <li><a href="../programmation.html" class="test">Programmation</a></li>
-            <li><a href="../equipe_partenaires.html" class="test">Notre équipe et nos partenaires</a></li>
-            <li><a href="../joindre.html" class="test">Nous joindre</a></li>
-        </ul>
-    </nav>
-</header>
 
 <body>
-    <section class="background_orange">
-        <section class="background_blanc">
-            <img src="../img/background_blanc.PNG" class="img_blanc" />
+    <header class="site-header">
+        <a href="../index.html" class="logo">MUSIK'AVEL</a>
 
-            <title_Manger>
-                <h2>MANGER :</h2>
-            </title_Manger>
-            <text_manger>
-                <p>
-                    Un stand de galettes-saucisse et frites* sera ouvert lors de notre evenement. Ils attandent
-                    plus que vous pour être deguster devant les concerts !
+        <nav class="main-nav" aria-label="Navigation principale">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../programmation.html">Programmation</a></li>
+                <li><a href="../equipe_partenaires.html">Équipe & partenaires</a></li>
+                <li><a href="../joindre.html">Nous joindre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="food-hero">
+            <div class="hero-content">
+                <p class="hero-kicker">Musik’Avel 2026 • Brécé</p>
+                <h1>Boire & manger</h1>
+                <p class="hero-subtitle">
+                    Profitez des concerts avec une buvette et de la restauration sur place tout au long de la soirée.
                 </p>
-            </text_manger>
-            <title_boire>
-                <h2>BOIRE :</h2>
-            </title_boire>
-            <texte_boire>
-                <p>
-                    Une buvette sera ouverte lors de toute la durée de la manifestation. Tous
-                    rafraîchissements classiques seront présents lors des concerts ( Bière, Coca*, Eau, Soda, ...)
-                </p>
-            </texte_boire>
-
-            <warning>
-                <p>* : Sous-réserves de changements</p>
-            </warning>
-
+                <div class="hero-actions">
+                    <a href="#manger" class="btn btn-primary">Voir la restauration</a>
+                    <a href="#buvette" class="btn btn-secondary">Voir la buvette</a>
+                </div>
+            </div>
         </section>
-    </section>
 
+        <section id="manger" class="section section-white">
+            <div class="container section-intro">
+                <p class="section-label">Restauration</p>
+                <h2>De quoi profiter de la soirée</h2>
+                <p>
+                    Pour cette 5ᵉ édition, plusieurs propositions seront disponibles sur place afin de manger
+                    directement pendant le festival, entre deux concerts ou devant la scène.
+                </p>
+            </div>
 
+            <div class="container food-grid">
+                <article class="food-card highlight">
+                    <span class="food-icon">🥞</span>
+                    <h3>Galettes</h3>
+                    <p>
+                        Un classique convivial pour accompagner la soirée et profiter du festival sans quitter le site.
+                    </p>
+                </article>
 
+                <article class="food-card">
+                    <span class="food-icon">🍛</span>
+                    <h3>Rougail saucisse</h3>
+                    <p>
+                        Un plat généreux et chaleureux, parfait pour faire le plein d’énergie pendant les concerts.
+                    </p>
+                </article>
 
-    <footer>
-        <h6>&copy; 2022-2025 MIC-MAC, tous droits réservés.</h6>
+                <article class="food-card">
+                    <span class="food-icon">🥘</span>
+                    <h3>Mafé</h3>
+                    <p>
+                        Une autre proposition gourmande à retrouver sur place pour varier les plaisirs.
+                    </p>
+                </article>
+            </div>
+        </section>
 
+        <section id="buvette" class="section section-orange">
+            <div class="container split">
+                <div>
+                    <p class="section-label">Buvette</p>
+                    <h2>Une buvette sur place</h2>
+                    <p>
+                        Une buvette sera ouverte pendant toute la durée de l’événement. Vous pourrez y retrouver
+                        des boissons fraîches pour accompagner la soirée dans une ambiance festive et conviviale.
+                    </p>
+                </div>
+
+                <div class="drink-panel">
+                    <div class="drink-row">
+                        <span>🍺</span>
+                        <p>Bière</p>
+                    </div>
+                    <div class="drink-row">
+                        <span>🥤</span>
+                        <p>Sodas</p>
+                    </div>
+                    <div class="drink-row">
+                        <span>💧</span>
+                        <p>Eau</p>
+                    </div>
+                    <div class="drink-row">
+                        <span>🎶</span>
+                        <p>Bonne ambiance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark">
+            <div class="container practical-box">
+                <p class="section-label">Infos pratiques</p>
+                <h2>À savoir</h2>
+                <p>
+                    Les stands seront accessibles pendant la soirée du samedi 6 juin 2026 à l’Espace du Suet,
+                    à Brécé. Les propositions peuvent évoluer selon l’organisation et les disponibilités du jour J.
+                </p>
+                <a href="../programmation.html" class="btn btn-primary">Voir la programmation</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2022-2026 MIC-MAC, tous droits réservés.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-
 </body>
-
 </html>
