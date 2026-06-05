@@ -467,11 +467,17 @@ h2 {
 }
 
 .access-card {
+    min-height: 260px;
     padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border-radius: 28px;
     background: rgba(255, 255, 255, 0.96);
     box-shadow: var(--shadow);
-    border-left: 8px solid var(--orange);
+    border-top: 8px solid var(--orange);
 }
 
 .access-card h3 {
@@ -483,6 +489,7 @@ h2 {
 }
 
 .access-card p {
+    max-width: 460px;
     margin-bottom: 20px;
     font-family: 'Rokkitt', serif;
     font-size: 1.25rem;
