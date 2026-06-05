@@ -186,6 +186,7 @@ a {
     padding: 12px 24px;
     border-radius: 999px;
     font-weight: 800;
+    text-align: center;
     transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
@@ -388,26 +389,39 @@ h2 {
 }
 
 .access-header {
+    max-width: 1200px;
+    margin: 0 auto 45px auto;
+    padding: 40px;
     text-align: center;
-    color: var(--white);
-    margin-bottom: 46px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+}
+
+.access-header .section-label {
+    margin-bottom: 10px;
+}
+
+.access-header h2 {
+    margin-bottom: 15px;
 }
 
 .access-header p:not(.section-label) {
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.92);
     font-family: 'Rokkitt', serif;
     font-size: clamp(1.18rem, 2vw, 1.45rem);
-    color: rgba(255, 255, 255, 0.92);
 }
 
 .map-wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .map-container {
-    width: 100%;
     overflow: hidden;
     border-radius: 30px;
     background: var(--white);
@@ -416,7 +430,7 @@ h2 {
 
 .map-container iframe {
     width: 100%;
-    height: 620px;
+    height: 650px;
     border: 0;
     display: block;
 }
@@ -429,24 +443,23 @@ h2 {
 }
 
 .access-card {
-    padding: 32px;
-    border-radius: 28px;
     background: rgba(255, 255, 255, 0.95);
+    border-radius: 28px;
+    padding: 32px;
     box-shadow: var(--shadow);
 }
 
 .access-card h3 {
-    margin-bottom: 14px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 2.45rem;
-    line-height: 1;
+    font-size: 2.3rem;
+    margin-bottom: 15px;
     color: var(--black);
 }
 
 .access-card p {
-    margin-bottom: 18px;
     font-family: 'Rokkitt', serif;
     font-size: 1.25rem;
+    margin-bottom: 20px;
     color: var(--text);
 }
 
@@ -563,8 +576,13 @@ h2 {
     .info-panel,
     .icon-item,
     .map-container,
-    .access-card {
+    .access-card,
+    .access-header {
         border-radius: 22px;
+    }
+
+    .access-header {
+        padding: 30px 20px;
     }
 
     .map-container iframe {
